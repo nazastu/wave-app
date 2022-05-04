@@ -1,9 +1,10 @@
 <template>
   <nav>
     <img src="@/assets/HKLogo.png" alt="" />
-
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <div class="links">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
   </nav>
   <router-view />
 </template>
@@ -20,26 +21,25 @@
 }
 
 nav {
-  padding: 15px;
+  padding: 5px 10px 5px 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 
 nav img {
   width: 50px;
   height: 50px;
   justify-content: left;
-  position: absolute;
+  position: relative;
 }
 
-nav a {
+nav .links a {
   font-weight: bold;
   font-size: 22px;
   color: #2c3e50;
   text-decoration: none;
-  position: relative;
-  float: none;
 }
 
 nav a.router-link-exact-active {
