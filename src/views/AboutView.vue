@@ -60,6 +60,8 @@
   margin: 100px;
   width: 350px;
   height: auto;
+  -webkit-filter: drop-shadow(5px 10px 10px #666666);
+  filter: drop-shadow(5px 5px 5px #666666);
   @media (min-width: "1080px") {
     width: 500px;
   }
@@ -101,6 +103,7 @@
 .statement {
   overflow: hidden;
   position: relative;
+  top: -60px;
   display: flex;
   align-items: center;
   justify-content: center;
