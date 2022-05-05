@@ -1,9 +1,9 @@
 <template>
-  <div class="name">We are: Hello Kittea</div>
+  <div class="name">About Us!!</div>
 
   <div class="media">
     <div class="image-block">
-      <img src="../assets/bubble2.jpg" alt="" class="boba2" />
+      <img src="@/assets/bubble2.jpg" alt="" class="boba2" />
     </div>
 
     <div class="about">
@@ -60,8 +60,6 @@
   margin: 100px;
   width: 350px;
   height: auto;
-  -webkit-filter: drop-shadow(5px 10px 10px #666666);
-  filter: drop-shadow(5px 5px 5px #666666);
   @media (min-width: "1080px") {
     width: 500px;
   }

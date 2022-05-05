@@ -21,7 +21,7 @@
 }
 
 nav {
-  padding: 5px 10px 5px 10px;
+  padding: 5px 20px 5px 20px;
   display: flex;
   flex-direction: row;
   align-items: center;

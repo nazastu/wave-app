@@ -46,6 +46,15 @@
     </div>
     <!--Waves end-->
   </div>
+
+  <div class="promo">
+    <h1>Tasty Bubble Tea!</h1>
+
+    <p>We hope you love boba, cuz we sure do!</p>
+    <div class="promoImg">
+      <img src="@/assets/abgBoba.jpg" alt="" class="abg1" />
+    </div>
+  </div>
 </template>
 
 <script>
@@ -59,7 +68,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
 body {
@@ -167,6 +176,19 @@ p {
 
   h1 {
     font-size: 24px;
+  }
+}
+
+.abg1 {
+  width: 100%;
+  height: auto;
+  @media (min-width: "600px") {
+    width: 90%;
+    height: auto;
+  }
+  @media (min-width: "1080px") {
+    width: 975px;
+    height: auto;
   }
 }
 </style>
